@@ -6,6 +6,7 @@ public class Orang {
 	private String nama;
 	private int umur;
 	private String jenisKelamin;
+	private String alamat;
 	
 	public String getNama() {
 		return nama;
@@ -29,5 +30,13 @@ public class Orang {
 
 	public void setJenisKelamin(String jenisKelamin) {
 		this.jenisKelamin = jenisKelamin;
+	}
+
+	public String getAlamat() {
+		return alamat;
+	}
+
+	public void setAlamat(String alamat) {
+		this.alamat = alamat;
 	}
 }

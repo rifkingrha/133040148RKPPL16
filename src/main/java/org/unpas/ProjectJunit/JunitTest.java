@@ -34,6 +34,12 @@ public class JunitTest{
 		assertNotNull("Seharusnya null dan pengujian gagal", orang.getJenisKelamin());
 	}
 	
+	@Test
+	public void pengujian4(){
+		orang.setAlamat("asda");
+		assertNotSame("Seharusnya tidak sama dan pengujian berhasil","Rifki", orang.getAlamat());
+	}
+	
 	@After
 	public void setelahPengetesan(){
 		System.out.println("Setelah Pengetesan");
